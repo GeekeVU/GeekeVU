@@ -5,5 +5,5 @@ x <- rnorm(100, mean = 1, sd = 0.5)
 fitdist(x[x >= 0], "exp")
 
 fitdist(x - min(x), "exp")
-git remote add origin https://github.com/GeekeVU/GeekeVU.git
-git push -u origin master
+
+#this is a comment
